@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161BDE441B4CFEF0006D8248 /* btRippleButtton.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BDE431B4CFEF0006D8248 /* btRippleButtton.m */; };
+		161BDE491B4CFF12006D8248 /* DoubleChoseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BDE461B4CFF12006D8248 /* DoubleChoseViewController.m */; };
+		161BDE4A1B4CFF12006D8248 /* SingChoseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BDE481B4CFF12006D8248 /* SingChoseViewController.m */; };
+		161BDE4D1B4CFF2A006D8248 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BDE4C1B4CFF2A006D8248 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		16505CF71B2FC15800047AB9 /* QQConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16505CD61B2FC15800047AB9 /* QQConnection.framework */; };
 		16505CF81B2FC15800047AB9 /* QZoneConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16505CD71B2FC15800047AB9 /* QZoneConnection.framework */; };
 		16505CF91B2FC15800047AB9 /* SinaWeiboConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16505CD81B2FC15800047AB9 /* SinaWeiboConnection.framework */; };
@@ -39,8 +43,6 @@
 		16505D1F1B2FC83E00047AB9 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16505D1E1B2FC83E00047AB9 /* Accounts.framework */; };
 		16505D211B2FDC1F00047AB9 /* MGentleHKS-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16505D201B2FD48000047AB9 /* MGentleHKS-Light.otf */; };
 		168FD13E1B411C84000883A2 /* LaunchScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 168FD13D1B411C84000883A2 /* LaunchScreen.m */; };
-		16D04B431B253DEB009BE577 /* btRippleButtton.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D04B421B253DEB009BE577 /* btRippleButtton.m */; };
-		16D04B441B253DFE009BE577 /* btRippleButtton.h in Sources */ = {isa = PBXBuildFile; fileRef = 16D04B411B253DEB009BE577 /* btRippleButtton.h */; };
 		16D04B481B254417009BE577 /* LTBounceSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D04B471B254417009BE577 /* LTBounceSheet.m */; };
 		16E2C3A51B218F0500482E5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E2C3A41B218F0500482E5E /* main.m */; };
 		16E2C3A81B218F0500482E5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E2C3A71B218F0500482E5E /* AppDelegate.m */; };
@@ -48,14 +50,20 @@
 		16E2C3AE1B218F0500482E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E2C3AC1B218F0500482E5E /* Main.storyboard */; };
 		16E2C3B01B218F0500482E5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16E2C3AF1B218F0500482E5E /* Images.xcassets */; };
 		16E2C3B31B218F0500482E5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16E2C3B11B218F0500482E5E /* LaunchScreen.xib */; };
-		16E2C42F1B21941900482E5E /* SingChoseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E2C42E1B21941900482E5E /* SingChoseViewController.m */; };
-		16E2C4321B2194AE00482E5E /* DoubleChoseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E2C4311B2194AE00482E5E /* DoubleChoseViewController.m */; };
-		16E2C4351B21988100482E5E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E2C4341B21988100482E5E /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		16F6BAD81B44DE24005D6369 /* scoreresult.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F6BAD71B44DE24005D6369 /* scoreresult.plist */; };
 		5AE1FD2723841A8180C98524 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D17E618A64F42605C44BCF8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		161BDE411B4CFD9E006D8248 /* APIKeyAndAPISecret.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIKeyAndAPISecret.h; sourceTree = "<group>"; };
+		161BDE421B4CFEF0006D8248 /* btRippleButtton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btRippleButtton.h; sourceTree = "<group>"; };
+		161BDE431B4CFEF0006D8248 /* btRippleButtton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btRippleButtton.m; sourceTree = "<group>"; };
+		161BDE451B4CFF12006D8248 /* DoubleChoseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleChoseViewController.h; sourceTree = "<group>"; };
+		161BDE461B4CFF12006D8248 /* DoubleChoseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleChoseViewController.m; sourceTree = "<group>"; };
+		161BDE471B4CFF12006D8248 /* SingChoseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingChoseViewController.h; sourceTree = "<group>"; };
+		161BDE481B4CFF12006D8248 /* SingChoseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingChoseViewController.m; sourceTree = "<group>"; };
+		161BDE4B1B4CFF2A006D8248 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		161BDE4C1B4CFF2A006D8248 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		16505CD61B2FC15800047AB9 /* QQConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QQConnection.framework; sourceTree = "<group>"; };
 		16505CD71B2FC15800047AB9 /* QZoneConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QZoneConnection.framework; sourceTree = "<group>"; };
 		16505CD81B2FC15800047AB9 /* SinaWeiboConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SinaWeiboConnection.framework; sourceTree = "<group>"; };
@@ -95,8 +103,6 @@
 		16505D201B2FD48000047AB9 /* MGentleHKS-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MGentleHKS-Light.otf"; sourceTree = "<group>"; };
 		168FD13C1B411C84000883A2 /* LaunchScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchScreen.h; sourceTree = "<group>"; };
 		168FD13D1B411C84000883A2 /* LaunchScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchScreen.m; sourceTree = "<group>"; };
-		16D04B411B253DEB009BE577 /* btRippleButtton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btRippleButtton.h; path = ../../../../../.Trash/btRippleButton/btRippleButtton.h; sourceTree = "<group>"; };
-		16D04B421B253DEB009BE577 /* btRippleButtton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = btRippleButtton.m; path = ../../../../../.Trash/btRippleButton/btRippleButtton.m; sourceTree = "<group>"; };
 		16D04B461B254417009BE577 /* LTBounceSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTBounceSheet.h; sourceTree = "<group>"; };
 		16D04B471B254417009BE577 /* LTBounceSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTBounceSheet.m; sourceTree = "<group>"; };
 		16E2C39F1B218F0500482E5E /* 夫妻相.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "夫妻相.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,13 +117,6 @@
 		16E2C3B21B218F0500482E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		16E2C3BD1B218F0500482E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16E2C3BE1B218F0500482E5E /* comparefaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comparefaceTests.m; sourceTree = "<group>"; };
-		16E2C42D1B21941900482E5E /* SingChoseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingChoseViewController.h; sourceTree = "<group>"; };
-		16E2C42E1B21941900482E5E /* SingChoseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingChoseViewController.m; sourceTree = "<group>"; };
-		16E2C4301B2194AE00482E5E /* DoubleChoseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleChoseViewController.h; sourceTree = "<group>"; };
-		16E2C4311B2194AE00482E5E /* DoubleChoseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleChoseViewController.m; sourceTree = "<group>"; };
-		16E2C4331B21988100482E5E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../../Demos/FaceppPhotoPickerDemo/MBProgressHUD.h; sourceTree = "<group>"; };
-		16E2C4341B21988100482E5E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ../../Demos/FaceppPhotoPickerDemo/MBProgressHUD.m; sourceTree = "<group>"; };
-		16E2C4361B2198B200482E5E /* APIKeyAndAPISecret.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = APIKeyAndAPISecret.h; path = ../../Demos/APIKeyAndAPISecret.h; sourceTree = "<group>"; };
 		16F6BAD71B44DE24005D6369 /* scoreresult.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scoreresult.plist; sourceTree = "<group>"; };
 		2D17E618A64F42605C44BCF8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC528C84B6512865798A9098 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -259,8 +258,8 @@
 		16D04B401B253DCB009BE577 /* btRippleButton */ = {
 			isa = PBXGroup;
 			children = (
-				16D04B411B253DEB009BE577 /* btRippleButtton.h */,
-				16D04B421B253DEB009BE577 /* btRippleButtton.m */,
+				161BDE421B4CFEF0006D8248 /* btRippleButtton.h */,
+				161BDE431B4CFEF0006D8248 /* btRippleButtton.m */,
 			);
 			name = btRippleButton;
 			sourceTree = "<group>";
@@ -345,13 +344,13 @@
 		16E2C42C1B2193E600482E5E /* ViewCoontroller */ = {
 			isa = PBXGroup;
 			children = (
-				16E2C4361B2198B200482E5E /* APIKeyAndAPISecret.h */,
-				16E2C4331B21988100482E5E /* MBProgressHUD.h */,
-				16E2C4341B21988100482E5E /* MBProgressHUD.m */,
-				16E2C42D1B21941900482E5E /* SingChoseViewController.h */,
-				16E2C42E1B21941900482E5E /* SingChoseViewController.m */,
-				16E2C4301B2194AE00482E5E /* DoubleChoseViewController.h */,
-				16E2C4311B2194AE00482E5E /* DoubleChoseViewController.m */,
+				161BDE4B1B4CFF2A006D8248 /* MBProgressHUD.h */,
+				161BDE4C1B4CFF2A006D8248 /* MBProgressHUD.m */,
+				161BDE451B4CFF12006D8248 /* DoubleChoseViewController.h */,
+				161BDE461B4CFF12006D8248 /* DoubleChoseViewController.m */,
+				161BDE471B4CFF12006D8248 /* SingChoseViewController.h */,
+				161BDE481B4CFF12006D8248 /* SingChoseViewController.m */,
+				161BDE411B4CFD9E006D8248 /* APIKeyAndAPISecret.h */,
 			);
 			name = ViewCoontroller;
 			sourceTree = "<group>";
@@ -387,9 +386,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16E2C39E1B218F0500482E5E /* compareface */ = {
+		16E2C39E1B218F0500482E5E /* comparefacefree */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16E2C3C21B218F0500482E5E /* Build configuration list for PBXNativeTarget "compareface" */;
+			buildConfigurationList = 16E2C3C21B218F0500482E5E /* Build configuration list for PBXNativeTarget "comparefacefree" */;
 			buildPhases = (
 				070B928BEC000FB512B8D89E /* Check Pods Manifest.lock */,
 				16E2C39B1B218F0500482E5E /* Sources */,
@@ -401,7 +400,7 @@
 			);
 			dependencies = (
 			);
-			name = compareface;
+			name = comparefacefree;
 			productName = compareface;
 			productReference = 16E2C39F1B218F0500482E5E /* 夫妻相.app */;
 			productType = "com.apple.product-type.application";
@@ -420,7 +419,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 16E2C39A1B218F0500482E5E /* Build configuration list for PBXProject "compareface" */;
+			buildConfigurationList = 16E2C39A1B218F0500482E5E /* Build configuration list for PBXProject "comparefacefree" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -434,7 +433,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16E2C39E1B218F0500482E5E /* compareface */,
+				16E2C39E1B218F0500482E5E /* comparefacefree */,
 			);
 		};
 /* End PBXProject section */
@@ -497,15 +496,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D04B441B253DFE009BE577 /* btRippleButtton.h in Sources */,
 				16E2C3AB1B218F0500482E5E /* ViewController.m in Sources */,
-				16E2C4351B21988100482E5E /* MBProgressHUD.m in Sources */,
 				16E2C3A81B218F0500482E5E /* AppDelegate.m in Sources */,
-				16E2C4321B2194AE00482E5E /* DoubleChoseViewController.m in Sources */,
-				16E2C42F1B21941900482E5E /* SingChoseViewController.m in Sources */,
 				168FD13E1B411C84000883A2 /* LaunchScreen.m in Sources */,
-				16D04B431B253DEB009BE577 /* btRippleButtton.m in Sources */,
+				161BDE491B4CFF12006D8248 /* DoubleChoseViewController.m in Sources */,
+				161BDE4D1B4CFF2A006D8248 /* MBProgressHUD.m in Sources */,
 				16D04B481B254417009BE577 /* LTBounceSheet.m in Sources */,
+				161BDE441B4CFEF0006D8248 /* btRippleButtton.m in Sources */,
+				161BDE4A1B4CFF12006D8248 /* SingChoseViewController.m in Sources */,
 				16E2C3A51B218F0500482E5E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -684,7 +682,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16E2C39A1B218F0500482E5E /* Build configuration list for PBXProject "compareface" */ = {
+		16E2C39A1B218F0500482E5E /* Build configuration list for PBXProject "comparefacefree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16E2C3C01B218F0500482E5E /* Debug */,
@@ -693,7 +691,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16E2C3C21B218F0500482E5E /* Build configuration list for PBXNativeTarget "compareface" */ = {
+		16E2C3C21B218F0500482E5E /* Build configuration list for PBXNativeTarget "comparefacefree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16E2C3C31B218F0500482E5E /* Debug */,

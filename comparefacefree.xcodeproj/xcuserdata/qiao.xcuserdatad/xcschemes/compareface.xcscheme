@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "16E2C39E1B218F0500482E5E"
                BuildableName = "&#x592b;&#x59bb;&#x76f8;.app"
-               BlueprintName = "compareface"
-               ReferencedContainer = "container:compareface.xcodeproj">
+               BlueprintName = "comparefacefree"
+               ReferencedContainer = "container:comparefacefree.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "16E2C3B71B218F0500482E5E"
                BuildableName = "comparefaceTests.xctest"
                BlueprintName = "comparefaceTests"
-               ReferencedContainer = "container:compareface.xcodeproj">
+               ReferencedContainer = "container:comparefacefree.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "16E2C3B71B218F0500482E5E"
                BuildableName = "comparefaceTests.xctest"
                BlueprintName = "comparefaceTests"
-               ReferencedContainer = "container:compareface.xcodeproj">
+               ReferencedContainer = "container:comparefacefree.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,8 +58,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "16E2C39E1B218F0500482E5E"
             BuildableName = "&#x592b;&#x59bb;&#x76f8;.app"
-            BlueprintName = "compareface"
-            ReferencedContainer = "container:compareface.xcodeproj">
+            BlueprintName = "comparefacefree"
+            ReferencedContainer = "container:comparefacefree.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -78,8 +78,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "16E2C39E1B218F0500482E5E"
             BuildableName = "&#x592b;&#x59bb;&#x76f8;.app"
-            BlueprintName = "compareface"
-            ReferencedContainer = "container:compareface.xcodeproj">
+            BlueprintName = "comparefacefree"
+            ReferencedContainer = "container:comparefacefree.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,8 +97,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "16E2C39E1B218F0500482E5E"
             BuildableName = "&#x592b;&#x59bb;&#x76f8;.app"
-            BlueprintName = "compareface"
-            ReferencedContainer = "container:compareface.xcodeproj">
+            BlueprintName = "comparefacefree"
+            ReferencedContainer = "container:comparefacefree.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
