@@ -14,6 +14,7 @@
 #import "PulsingHaloLayer.h"
 #import "UILabel+FlickerNumber.h"
 #import "PECropViewController.h"
+#import "ConfigHeader.h"
 @interface SingChoseViewController ()<PECropViewControllerDelegate>
 @property(nonatomic,strong) LTBounceSheet *sheet;
 @property int score;
@@ -25,7 +26,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     imagePicker = [[UIImagePickerController alloc] init];
-    
+ 
     // initialize
     NSString *API_KEY = @"d277502ffe983493f92754c4431726db";
     NSString *API_SECRET = @"pxyJuPZXukNG4JGPllXqooYaOOna4rIv";
@@ -213,6 +214,30 @@
 - (IBAction)initall:(id)sender {
     [self removeImageView];
     [self initalla];
+    NSDate *nowDate = [NSDate date];
+    
+    
+    //通过NSCALENDAR类来创建日期，预设一个时间来打开积分墙 比如2014-10-20
+    NSDateComponents *comp = [[NSDateComponents alloc]init];
+    [comp setMonth:7];
+    [comp setDay:28];
+    [comp setYear:2015];
+    NSCalendar *myCal = [[NSCalendar alloc]initWithCalendarIdentifier:NSGregorianCalendar];
+    //这个就是10-20号那天的date
+    NSDate *myDate1 = [myCal dateFromComponents:comp];
+    
+    //判断到当前的时间在9月4号后面
+    if ([[nowDate laterDate:myDate1] isEqual:nowDate]) {
+        [NewWorldSpt showQQWSPTAction:^(BOOL flag){
+            if (flag) {
+                NSLog(@"log添加展示成功的逻辑");
+            }
+            else{
+                NSLog(@"log添加展示失败的逻辑");
+            }
+        }];
+    }
+    
 }
 #pragma  截屏
 - (UIImage *)imageFromView: (UIView *) theView   atFrame:(CGRect)r
@@ -455,10 +480,10 @@
     } else {
         // some errors occurred
         UIAlertView *alert = [[UIAlertView alloc]
-                              initWithTitle:[NSString stringWithFormat:@"error message: %@", [result error].message]
+                              initWithTitle:@"服务器出了会小差，重新试试呗"
                               message:@""
                               delegate:nil
-                              cancelButtonTitle:@"OK!"
+                              cancelButtonTitle:@"抽你丫的"
                               otherButtonTitles:nil];
         [alert performSelectorOnMainThread:@selector(show) withObject:nil waitUntilDone:YES];
     }
@@ -689,7 +714,7 @@
         [self.view addSubview:imageViewhTemp];
         [self performSelector:@selector(addmorephoto) withObject:nil afterDelay:0.1f];
     }
-    [resultLable setText:@"客观您稍等"];
+    [resultLable setText:@"客官您稍等"];
     UIImage *imageToDetect=imageToDisplay;
     if (firstImage!=nil) {
         imageToDetect=[self addImage:imageToDisplay toImage:firstImage];

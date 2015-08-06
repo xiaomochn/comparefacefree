@@ -13,7 +13,7 @@
 #import "WXApi.h"
 #import "WeiboApi.h"
 #import "WeiboSDK.h"
-
+#import "ConfigHeader.h"
 @interface AppDelegate ()
 
 @end
@@ -50,8 +50,15 @@
                                     appSecret:@"38a4f8204cc784f81f9f0daaf31e02e3"
                                   redirectUri:@"http://www.sharesdk.cn"
                                   weiboSDKCls:[WeiboSDK class]];
+        NSString *appid = @"46b8f2b470615d83";
+        NSString *secretId = @"77c001f9613becb9";
+        [NewWorldSpt initQQWDeveloperParams:appid QQ_SecretId:secretId];
+        
+        //使用前先初始化一下插屏
+        [NewWorldSpt initQQWDeveLoper:kTypePortrait];//填上你对应的横竖屏模式
      
     }
+   
         return YES;
 }
 

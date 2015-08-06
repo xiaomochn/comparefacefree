@@ -25,6 +25,7 @@
     self.flipViewController.view.frame = self.view.frame;
     [self.view addSubview:self.flipViewController.view];
     [self.flipViewController didMoveToParentViewController:self];
+    
 }
 
 - (void)didReceiveMemoryWarning {
